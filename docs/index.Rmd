@@ -1,0 +1,47 @@
+---
+title: "Lecture 16: Areal Data Overview"
+output:
+  revealjs::revealjs_presentation:
+    theme: white
+    center: true
+    transition: none
+    incremental: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+library(dplyr)
+library(ggplot2)
+library(leaflet)
+library(readr)
+```
+
+# Class Intro
+
+## Intro Questions 
+- Spatial Generalized Linear Models: Explain how the spatial structure is incorporated into these models.
+
+- For Today:
+    - Spatial Prediction and Model Selection
+
+
+# Areal Data Overview
+
+## Areal Data
+
+Defining features: random observation measured at well defined subsets, such as a city or state.
+
+```{r, out.width = "95%", echo = F, fig.align = 'center', fig.cap='source: https://www.politico.com/election-results/2018/montana/'}
+knitr::include_graphics("Tester.png") 
+```
+
+## Areal Data Exercise
+
+**Recall:** How can spatial information be incorporated with this data structure?
+
+```{r, out.width = "95%", echo = F, fig.align = 'center', fig.cap='source: https://www.politico.com/election-results/2018/montana/'}
+knitr::include_graphics("Tester.png") 
+```
+
+
